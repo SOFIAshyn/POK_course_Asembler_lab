@@ -60,4 +60,4 @@ segment readable writable
 
 length	    dq 5
 arr	        dq 1, 3, 2, 5, 4
-;to_print    db "%ld",0xa,0x0
+;to_print    db "%lli",0xa,0x0
